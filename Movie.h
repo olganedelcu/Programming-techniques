@@ -6,8 +6,8 @@ class Movie{
         string director;
         int year;
         vector<Actors> actors;
-        char description[256];
-        int price;
+        string description;
+        float price;
 
     public:
         //constructor
