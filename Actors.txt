@@ -1,6 +1,45 @@
+<<<<<<< HEAD
 Life as it is
 2003
 Jennifer Lopez
 Pulp Fiction
 1994
 Jhon Travolta
+=======
+Carrie Fisher
+19561021
+USA
+Harrison Ford
+19420713
+USA
+Mark Hamill
+19510925
+USA
+Shia LaBeouf
+19860611
+USA
+Megan Fox
+19860516
+USA
+Josh Duhamel
+19721114
+USA
+Taron Egerton
+19891110
+UK
+Colin Firth
+19600910
+UK
+Samuel L. Jackson
+19481221
+USA
+Benedict Cumberbatch
+19760719
+UK
+Keira Knightley
+19850326
+UK
+Mark Strong
+19630805
+UK
+>>>>>>> 7dfc496dee204e60434d0324cfcb46f5482f93a1

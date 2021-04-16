@@ -6,29 +6,38 @@ class Movie{
         string director;
         int year;
         vector<Actors> actors;
-        char description[256];
-        int price;
+        string description;
+        float price;
 
     public:
+        //constructor
+        Movie
         //getter and setter for Title attribute
-        void setTitle(string str){
-            title = str;
+        void setTitle(string myTitle){
+            title = myTitle;
         }
         string getTitle(){
             return title;
         }
         //getter and setter for Genre attribute
-        void setGenre(string str){
-            genre = str;
+        void setGenre(string myGenre){
+            genre = myGenre;
         }
         string getGenre(){
             return genre;
         }
         //getter and setter for director attribute
-        void setDirector(string str){
-            director = str;
+        void setDirector(string myDirector){
+            director = myDirector;
         }
         string getDirector(){
             return Director;
+        }
+        //getter and setter for year attribute
+        void setYear(int myYear){
+            year = myYear;
+        }
+        int getYear(){
+            return year;
         }
 }
