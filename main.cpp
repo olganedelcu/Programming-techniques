@@ -38,7 +38,7 @@ main() {
             };
             break;
         case 2:
-            cout << "cout << "Introduce the title of the movie.\n";
+                cout << "Introduce the title of the movie.\n";
                 cin >> movie;
                 cout << "Introduce start date:  ";
                 cin >> startDate;
@@ -84,13 +84,9 @@ main() {
         case 4: 
                 cout << "Introduce the tittle of a movie: " ;
                 cin >> movie;
-                cout << "List of availability of the movie" << movie << "in " << 
+                cout << "List of availability of the movie" << movie << "in " <<  "" << "is : ";
                 // we have to see what date is it and canvert it to a word;
-                 << is: ";
-                
-
-
-            break;
+                break;
         default:
         cout << "Exit: end of execution";
             break;
