@@ -62,13 +62,22 @@ main() {
 
 
                 cout << "Press any key to return to the main menu ……";
+                // If in this case (2) there is not an available DVD name display ERROR message;
             };
 
             
             break;
         case 3:
+                cout << "Introduce the tittle of a movie: " ;
+                cin >> movie;
+                cout << "List of rents of the movie " << movie << "in " << "is :";
 
-
+                
+                
+                
+                
+                
+                cout << "Press any key to return to the main menu ……";
 
             break;
         
