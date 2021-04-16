@@ -84,7 +84,9 @@ main() {
         case 4: 
                 cout << "Introduce the tittle of a movie: " ;
                 cin >> movie;
-                cout << "List of availability of the movie" << movie << "in October is: ";
+                cout << "List of availability of the movie" << movie << "in " << 
+                // we have to see what date is it and canvert it to a word;
+                 << is: ";
                 
 
 
