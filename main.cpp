@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 #include <vector>
 #include "Actors.h"
 
@@ -15,5 +15,5 @@ main() {
 
     }
     return 0;
-    
+
 }
