@@ -33,6 +33,8 @@ class Movie{
         }
         string getDirector(){
             return director;
+            
+     
         }
         //getter and setter for year attribute
         void setYear(int myYear){
@@ -42,3 +44,4 @@ class Movie{
             return year;
         }
 };
+// create class rentedMovies with class Movie inside and use it
