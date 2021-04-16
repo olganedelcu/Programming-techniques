@@ -81,7 +81,16 @@ main() {
 
             break;
         
+        case 4: 
+                cout << "Introduce the tittle of a movie: " ;
+                cin >> movie;
+                cout << "List of availability of the movie" << movie << "in October is: ";
+                
+
+
+            break;
         default:
+        cout << "Exit: end of execution";
             break;
         }
     }while(answer != 5);
