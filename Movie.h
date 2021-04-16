@@ -1,4 +1,5 @@
 #include "Actors.h"
+#include <vector> 
 class Movie{
     private:
         string title;
@@ -11,7 +12,7 @@ class Movie{
 
     public:
         //constructor
-        Movie
+        
         //getter and setter for Title attribute
         void setTitle(string myTitle){
             title = myTitle;
@@ -31,7 +32,7 @@ class Movie{
             director = myDirector;
         }
         string getDirector(){
-            return Director;
+            return director;
         }
         //getter and setter for year attribute
         void setYear(int myYear){
@@ -40,4 +41,4 @@ class Movie{
         int getYear(){
             return year;
         }
-}
+};

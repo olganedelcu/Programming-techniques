@@ -34,7 +34,7 @@ main() {
                 cout << "The payment has been made.";
                 cout << "Thank you for using our www.moviesclubagency.net ………";
                 cout << "To watch the movie, please follow the following link with the password: 12345 www.moviesclubagency.net/star_wars/login/.";
-                cout << "Press any key to return to the main menu ……";
+                cout << "Press any key to return to the main menu....";
             };
             break;
         case 2:
@@ -53,7 +53,7 @@ main() {
                 cout << "Introduce the expired date?";
                 cin >> expDate;
                 cout << "The payment has been made.";
-                cout << "Thank you for using our www.moviesclubagency.net ………";
+                cout << "Thank you for using our www.moviesclubagency.net ....";
                 cout << "The movie: " << movie << endl;
                 cout << "Rental start date: " << startDate << endl;
                 cout << "Rental end date: " << expDate << endl;
@@ -61,7 +61,7 @@ main() {
                 cout << "Client's name: " << userName << endl;
 
 
-                cout << "Press any key to return to the main menu ……";
+                cout << "Press any key to return to the main menu ---";
                 // If in this case (2) there is not an available DVD name display ERROR message;
             };
 
@@ -77,7 +77,7 @@ main() {
                 
                 
                 
-                cout << "Press any key to return to the main menu ……";
+                cout << "Press any key to return to the main menu ---";
 
             break;
         
