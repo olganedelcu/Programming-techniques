@@ -11,19 +11,8 @@ main() {
     string userName;
     int cardNumber;
     string expDate;
+    string startDate;
 
-<<<<<<< HEAD
-    cout << "List of Actors:\n ";
-    vector<Actors> actorsFromFile = readActorsFromFile();
-    for(int i = 0; i< actorsFromFile.size();i++){
-        cout << actorsFromFile[i].getName() << endl;
-        cout << actorsFromFile[i].getBirthdate() << endl;
-        cout << endl;
-
-    }
-    return 0;
-
-=======
     do{
         printMenu();
 
@@ -49,7 +38,38 @@ main() {
             };
             break;
         case 2:
-        
+            cout << "cout << "Introduce the title of the movie.\n";
+                cin >> movie;
+                cout << "Introduce start date:  ";
+                cin >> startDate;
+                cout << "Introduce how many days:";
+                cout << "Do you want to continue? (Yes is: 1/No is: 0 )";
+                cin >> answer;
+                if(answer){
+                cout << "Introduce complete name?";
+                cin >> userName;
+                cout << "Introduce card number?";
+                cin >> cardNumber;
+                cout << "Introduce the expired date?";
+                cin >> expDate;
+                cout << "The payment has been made.";
+                cout << "Thank you for using our www.moviesclubagency.net ………";
+                cout << "The movie: " << movie << endl;
+                cout << "Rental start date: " << startDate << endl;
+                cout << "Rental end date: " << expDate << endl;
+                cout << "Total price: " << -----. << endl;
+                cout << "Client's name: " << userName << endl;
+
+
+                cout << "Press any key to return to the main menu ……";
+            };
+
+            
+            break;
+        case 3:
+
+
+
             break;
         
         default:
@@ -59,5 +79,4 @@ main() {
     
 
     
->>>>>>> 7dfc496dee204e60434d0324cfcb46f5482f93a1
 }
