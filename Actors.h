@@ -15,15 +15,15 @@ class Actors {       // The class
   	void actors(string name,string birthdate);
   
     // getter and setter for Name
-   void setName(string n){
-       name = n;
+   void setName(string myName){
+       name = myName;
    }
    string getName() {
        return name;
    }
     // getter and setter for Birthdate
-   void setBirthdate(string b){
-       birthdate = b;
+   void setBirthdate(string myBirthdate){
+       birthdate = myBirthdate;
    } 
    string getBirthdate() {
        return birthdate;

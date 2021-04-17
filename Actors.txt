@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-Life as it is
-2003
-Jennifer Lopez
-Pulp Fiction
-1994
-Jhon Travolta
-=======
 Carrie Fisher
 19561021
 USA
@@ -42,4 +34,3 @@ UK
 Mark Strong
 19630805
 UK
->>>>>>> 7dfc496dee204e60434d0324cfcb46f5482f93a1

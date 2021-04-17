@@ -21,8 +21,10 @@ vector<Actors> readActorsFromFile(){
 
             int birthdateAsInt;
             file >> birthdateAsInt;
-            file.ignore(1,'/n'); // ignore the last data type that has been read and clean the bush
+            file.ignore(1,'/n'); // ignore the last data type that has been read and clean the bush            
             Actors currentActor(name,birthdate);
+
+
 
             actors.push_back(currentActor);
 
