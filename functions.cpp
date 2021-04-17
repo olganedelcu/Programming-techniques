@@ -1,3 +1,6 @@
+#include "Function.h"
+
+
 
 using namespace std;
 
@@ -6,11 +9,11 @@ using namespace std;
 
     cout << "Main Menu:\n";
     cout << "Movies Club\n";
-    cout << "1 – Watch online movies\n";
-    cout << "2 – Rent a movie DVD\n";
-    cout << "3 – Show DVD rentals\n";
-    cout << "4 - Show DVD availability\n";
-    cout << "5 – Exit\n";
+    cout << "1- Watch online movies\n";
+    cout << "2- Rent a movie DVD\n";
+    cout << "3- Show DVD rentals\n";
+    cout << "4- Show DVD availability\n";
+    cout << "5- Exit\n";
     cout << "Select an option: ";
  }
  

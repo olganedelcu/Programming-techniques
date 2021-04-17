@@ -11,19 +11,8 @@ main() {
     string userName;
     int cardNumber;
     string expDate;
+    string startDate;
 
-<<<<<<< HEAD
-    cout << "List of Actors:\n ";
-    vector<Actors> actorsFromFile = readActorsFromFile();
-    for(int i = 0; i< actorsFromFile.size();i++){
-        cout << actorsFromFile[i].getName() << endl;
-        cout << actorsFromFile[i].getBirthdate() << endl;
-        cout << endl;
-
-    }
-    return 0;
-
-=======
     do{
         printMenu();
 
@@ -45,19 +34,65 @@ main() {
                 cout << "The payment has been made.";
                 cout << "Thank you for using our www.moviesclubagency.net ………";
                 cout << "To watch the movie, please follow the following link with the password: 12345 www.moviesclubagency.net/star_wars/login/.";
-                cout << "Press any key to return to the main menu ……";
+                cout << "Press any key to return to the main menu....";
             };
             break;
         case 2:
-        
+                cout << "Introduce the title of the movie.\n";
+                cin >> movie;
+                cout << "Introduce start date:  ";
+                cin >> startDate;
+                cout << "Introduce how many days:";
+                cout << "Do you want to continue? (Yes is: 1/No is: 0 )";
+                cin >> answer;
+                if(answer){
+                cout << "Introduce complete name?";
+                cin >> userName;
+                cout << "Introduce card number?";
+                cin >> cardNumber;
+                cout << "Introduce the expired date?";
+                cin >> expDate;
+                cout << "The payment has been made.";
+                cout << "Thank you for using our www.moviesclubagency.net ....";
+                cout << "The movie: " << movie << endl;
+                cout << "Rental start date: " << startDate << endl;
+                cout << "Rental end date: " << expDate << endl;
+                cout << "Total price: " << -----. << endl;
+                cout << "Client's name: " << userName << endl;
+
+
+                cout << "Press any key to return to the main menu ---";
+                // If in this case (2) there is not an available DVD name display ERROR message;
+            };
+
+            
+            break;
+        case 3:
+                cout << "Introduce the tittle of a movie: " ;
+                cin >> movie;
+                cout << "List of rents of the movie " << movie << "in " << "is :";
+
+                
+                
+                
+                
+                
+                cout << "Press any key to return to the main menu ---";
+
             break;
         
+        case 4: 
+                cout << "Introduce the tittle of a movie: " ;
+                cin >> movie;
+                cout << "List of availability of the movie" << movie << "in " <<  "" << "is : ";
+                // we have to see what date is it and canvert it to a word;
+                break;
         default:
+        cout << "Exit: end of execution";
             break;
         }
     }while(answer != 5);
     
 
     
->>>>>>> 7dfc496dee204e60434d0324cfcb46f5482f93a1
 }
