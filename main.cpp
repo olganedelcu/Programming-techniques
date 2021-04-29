@@ -5,6 +5,10 @@
 #include "functions.cpp"
 
 main() {
+	
+	vector<Actors> list = readActorsFromFile();
+	
+	/*
     int option;
     string movie;
     bool answer;
@@ -94,5 +98,5 @@ main() {
     }while(answer != 5);
     
 
-    
+  */  
 }

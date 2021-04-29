@@ -3,29 +3,33 @@
 using namespace std;
 
 
-class Actors {       // The class
+class Actors{       // The class
   private:
     string name;      // Atribute name
-    string birthdate;    // Atribute birthdate IS IT A NUMBER???
+    int birthdate;    // Atribute birthdate IS IT A NUMBER???
     string nationality;
 
   public:           
   
   	// constructor for actor to reicive name and birthdate
-  	void actors(string name,string birthdate);
+  	Actors(string myName,int myBirthdate, string myNationality){
+  		name = myName;
+  		birthdate = myBirthdate;
+  		nationality = myNationality;
+	  }
   
     // getter and setter for Name
-   void setName(string myName){
-       name = myName;
+   void setName(string n){
+       name = n;
    }
    string getName() {
        return name;
    }
     // getter and setter for Birthdate
-   void setBirthdate(string myBirthdate){
+   void setBirthdate(int myBirthdate){
        birthdate = myBirthdate;
    } 
-   string getBirthdate() {
+   int getBirthdate() {
        return birthdate;
    }
     // getter and setter for Nationality

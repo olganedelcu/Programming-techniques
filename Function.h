@@ -7,7 +7,7 @@
 using namespace std;
 
 vector<Actors> readActorsFromFile(){
-    vector<Actors> actors;
+    vector<Actors> listOfActors;
 
     ifstream file;
     file.open("Actors.txt");
@@ -22,12 +22,15 @@ vector<Actors> readActorsFromFile(){
             int birthdateAsInt;
             file >> birthdateAsInt;
             file.ignore(1,'/n'); // ignore the last data type that has been read and clean the bush            
-            Actors currentActor(name,birthdate);
+            
+			string nationality;
+			getline(file, nationality);
+			file.ignore(1,'/n'); // ignore the last data type that has been read and clean the bush 
+			
+			Actors currentActor(name, birthdateAsInt, nationality);
 
-
-
-            actors.push_back(currentActor);
-
+            listOfActors.push_back(currentActor);
         }
     }
+    return listOfActors;
 }
