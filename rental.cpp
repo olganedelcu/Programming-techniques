@@ -8,7 +8,7 @@ class Rental : public Movie{
 		string clientName;
 		int startDate, endDate;
 	public:
-		//getter and setter for Title attribute
+		//getter and setter for myClientName attribute
 		void setClientName(string myClientName){
 			clientName = myClientName;
 		}
