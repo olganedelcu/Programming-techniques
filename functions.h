@@ -62,3 +62,56 @@ void printListActors(){
 	}
 }
 
+vector<Movie> readMoviesFromFile(){
+    vector<Movie> listOfMovies;
+
+    ifstream file;
+    file.open("Movies.txt");
+    if (!file){
+        cout << "Errror file" << endl;
+
+    }else{
+        while(!file.eof()){
+            string title;
+            getline(file, title);
+            
+            string genre;
+            getline(file, genre);
+            
+            string director;
+            getline(file, director);
+            
+            int year;
+            file >> year;
+            file.ignore(1,'/n'); // ignore the last data type that has been read and clean the bush            
+            
+			string description;
+			getline(file, description);
+			
+			float price;
+			file >> price;
+			file.ignore(1, '/n');
+			
+			Movie currentMovie(title, genre, director, year, description, price);
+
+            listOfMovies.push_back(currentMovie);
+        }
+    }
+    file.close();
+    
+    return listOfMovies;
+}
+
+// Function for printing the list of movies
+void printListMovies(){
+    vector<Movie> list = readMoviesFromFile();
+	for(int i = 0; i < list.size(); i++){
+		cout << list[i].getTitle() << endl;
+		cout << list[i].getGenre() << endl;
+		cout << list[i].getDirector() << endl;
+		cout << list[i].getYear() << endl;
+		cout << list[i].getDescription() << endl;
+		cout << list[i].getPrice() << endl;
+		cout << endl;
+	}
+}

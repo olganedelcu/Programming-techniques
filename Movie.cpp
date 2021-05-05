@@ -16,7 +16,14 @@ class Movie{
 
     public:
         //constructor
-        
+        Movie(string myTitle, string myGenre, string myDirector, int myYear, string myDescription, float myPrice){
+  			title = myTitle;
+  			genre = myGenre;
+  			director = myDirector;
+  			year = myYear;
+  			description = myDescription;
+  			price = myPrice;
+		}
         //getter and setter for Title attribute
         void setTitle(string myTitle){
             title = myTitle;
