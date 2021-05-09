@@ -1,18 +1,79 @@
-Carrie Fisher
-19561021
-USA
-Harrison Ford
-19420713
-USA
-Mark Hamill
-19510925
-USA
-Shia LaBeouf
-19860611
-USA
-Megan Fox
-19860516
-USA
-Josh Duhamel
-19721114
-USA
+Marlon Brando
+19250403
+American
+
+Al Pacino
+19400425
+American
+
+Henry Fonda
+19050516
+American
+
+Lee J.Cobb
+19111208
+American
+
+Liam Neeson
+19520607
+English
+
+Ben Kingsley
+19431231
+English
+
+Roberto Benigni
+19521027
+Italian
+
+Nicoletta Braschi
+19600419
+Italian
+
+Humphrey Bogart
+18991225
+American
+
+Ingrid Bergman
+19150729
+Swedish
+
+Alfonso Mejia
+19341116
+Mexican
+
+Roberto Cobo
+19300220
+Mexican
+
+Jose Isbert
+18860303
+Spanish
+
+Nino Manfredi
+19210322
+Italian
+
+Gustav Frohlich
+19020321
+German
+
+Brigitte Helm
+19080317
+German
+
+Jodie Foster
+19621119
+American
+
+Anthony Hopkins
+19371231
+English
+
+Tom Hanks
+19560709
+American
+
+Robin Wright
+19660408
+American

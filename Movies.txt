@@ -1,18 +1,69 @@
-Kingsman
-Action
-Peter Griff
-2015
-Whatever happens in the film
-5.6
-Transformers
-Action
-Taika Waititi
-2017
-Boring description
-7.8
-The Reverend
-Terror
-Hugh Spill
-2002
-Something scary
+The Godfather
+Mafia
+Francis Ford Coppola
+1972
+Epic tale of a 1940s New York Mafia family and their struggle to protect their empire from rival families as the leadership switches from the father (Marlon Brando) to his youngest son (Al Pacino).
+9.0
+
+12 Angry Men
+Drama
+Sidney Lumet
+1957
+Eleven jurors are convinced that the defendant is guilty of murder. The twelfth has no doubt of his innocence. How can this one man steer the others toward the same conclusion?
+8.7
+
+Schindler's List
+Drama
+Steven Spielberg
+1993
+Oskar Schindler is a German businessman in Poland who sees an opportunity to make money from the Nazis' rise to power. He starts a company to make cookware and utensils, using flattery and bribes to win military contracts, and brings in accountant and financier Itzhak Stern (Ben Kingsley) to help run the factory.
+8.6
+
+La vita e bella
+Comedy
+Roberto Benigni
+1997
+Guido - a charming but bumbling waiter who's gifted with a colourful imagination and an irresistible sense of humour - has won the heart of the woman he loves and has created a beautiful life for his young family.
+8.5
+
+Casablanca
+Romance
+Michael Curtiz
+1942
+Humphrey Bogart plays Richard "Rick" Blaine, a cynical but good-hearted American whose café is the gathering place for everyone from the French Police to the black market to the Nazis.
+8.4
+
+Los olvidados
+Drama
+Luis Buñuel
+1950
+El Jaibo is a teenager who escapes from a reformatory institution and joins his friends in the neighborhood. After a couple of days, el Jaibo kills, with the presence of his friend Pedro, the boy who apparently was responsible for his stay in the reformatory.
 8.3
+
+El verdugo
+Comedy
+Luis Garcia Berlanga
+1963
+An undertaker's assistant marries an executioner's daughter, and the new groom takes on his father-in-law's job but grows real squeamish when the time comes to execute someone.
+8.3
+
+Metropolis
+Sci-Fi
+Fritz Lang
+1927
+In Metropolis, society is divided in two classes: the rich, who have all the power and all kinds of luxuries and the workers, doomed to work and confined to live in poor conditions.
+8.2
+
+The Silence of the Lambs
+Thriller
+Jonathan Demme
+1991
+Clarice Starling, a young and ambitious FBI agent, enlists the aid of criminally insane ex-psychiatrist Dr. Hannibal Lecter to help track down a vicious serial killer named "Buffalo Bill" who skins his victims and who has kidnapped a girl, the only daughter of a republican senator.
+8.2
+
+Forrest Gump
+Comedy
+Robert Zemeckis
+1994
+Despite Forrest's (Tom Hanks) low IQ, he is not your average guy. Learning early on from his mother (Sally Field) that "life is like a box of chocolates, you never know what you're gonna get", Gump, without trying, stumbles upon some exciting events.
+8.2
