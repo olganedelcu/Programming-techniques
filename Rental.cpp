@@ -6,6 +6,7 @@ using namespace std;
 class Rental : public Movie{
 	private:
 		string clientName;
+		string title;
 		int startDate, endDate;
 	public:
 		//getter and setter for client name attribute
@@ -14,6 +15,13 @@ class Rental : public Movie{
 		}
 		string getClientName(){
 			return clientName;
+		}
+		//getter and setter for client name attribute
+		void setTitle(string myTitle){
+			title = myTitle;
+		}
+		string getTitle(){
+			return title;
 		}
 		//getter and setter for startDate attribute
 		void setStartDate(int myStartDate){

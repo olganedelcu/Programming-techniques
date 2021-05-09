@@ -23,8 +23,7 @@ int main() {
         	string dummy;
         	
         	cout << "Introduce the title of the movie.\n";
-            cin >> title;
-			            
+            cin >> title;			            
             price = lookForPrice(title);
             
             if(price != -1){
@@ -56,36 +55,58 @@ int main() {
         	}
         	break;
         case 2:
-        	/*
-			cout << "Introduce the title of the movie.\n";
-            cin >> movie;
-            cout << "Introduce start date:  ";
-            cin >> startDate;
-            cout << "Introduce how many days:";
-            cout << "Do you want to continue? (Yes is: 1/No is: 0 )";
-            cin >> answer;
-            if(answer){
-            cout << "Introduce complete name?";
-            cin >> userName;
-            cout << "Introduce card number?";
-            cin >> cardNumber;
-            cout << "Introduce the expired date?";
-            cin >> expDate;
-            cout << "The payment has been made.";
-            cout << "Thank you for using our www.moviesclubagency.net ....";
-            cout << "The movie: " << movie << endl;
-            cout << "Rental start date: " << startDate << endl;
-            cout << "Rental end date: " << expDate << endl;
-            cout << "Total price: " << -----. << endl;
-            cout << "Client's name: " << userName << endl;
+			{
+            string title;
+        	float price;
+        	char answer;
+        	string dummy;
+            string clientName;
+            string startDate;
+            int days;
+        	
+            cout << "Introduce the title of the movie.\n";
+            cin >> title;
+            price = lookForPrice(title);
+            
+            if (price != -1){
+            
+                cout << "Introduce start date:  ";
+                cin >> startDate;
+                cout << "Introduce how many days:";
+                cin >> days;
+                cout << "The total required price: ";
+                cout << price*days;
+                cout << "\n Do you want to continue? (Y/N)";
+                cin >> answer;
+                if(answer == 'Y'){
+                    cout << "Introduce complete name?";
+                    cin >> clientName;
+                    cout << "Introduce card number?";
+                    cin >> dummy;
+                    cout << "Introduce the expired date?";
+                    cin >> dummy;
+                    cout << "\n The payment has been made.";
+                    cout << "\n";
+                    cout << "\n";
+                    cout << "\n";
+                    cout << "\nThank you for using our www.moviesclubagency.net ....";
+                    cout << "The movie: " << title << endl;
+                    cout << "Rental start date: " << startDate << endl;
+                    cout << "Rental end date: " << endl;
+                    cout << "Total price: " << price*days << endl;
+                    cout << "Client's name: " << clientName << endl;
 
 
-            cout << "Press any key to return to the main menu ---";
-                // If in this case (2) there is not an available DVD name display ERROR message;
-            };
+                    cout << "Press any key to return to the main menu ---";
+                    getche();
+                }
+            }else {
+                cout << "This DV is not available.\n\n";
+            }
 
-            */
-        	break; 
+            }
+
+        	break;
         case 3:
         	/*
                 cout << "Introduce the tittle of a movie: " ;
